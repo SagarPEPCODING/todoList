@@ -1,0 +1,131 @@
+.widthauto {
+  width: auto;
+}
+.margin-top10 {
+  margin-top: 10px;
+}
+.searchcontainer {
+  width: 400px;
+  /* border: 1px solid black; */
+  height: 30px;
+}
+.alignitems_justify.widthauto {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.addnewtask_container {
+  width: 417px;
+  /* border: 1px solid black; */
+  height: 30px;
+}
+.tasklistcontainer {
+  width: 100%;
+  /* border: 1px solid black; */
+  height: 30px;
+}
+
+.display_flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.fontsize10 {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.add_icon {
+  border: 2px solid grey;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.taskitem.display_flex.align-items-center {
+  height: 30px;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.fontWeight500 {
+  font-weight: 500;
+}
+
+.edit__,
+.delete {
+  /* border: 1px solid grey; */
+  cursor: pointer;
+  margin: 2px;
+}
+
+.min-height400px {
+  max-height: 400px;
+  border: 1px solid;
+  overflow-y: scroll;
+  background: #d1d1d154;
+  border: 3px solid #b2a2a2;
+}
+
+.col-12.col-md-10.col-lg-8 {
+  width: 100% !important;
+}
+
+.margin__ {
+  margin: 5px;
+}
+
+.row {
+  margin-right: -9px !important;
+  margin-left: -10px !important;
+}
+
+/* media query */
+
+@media only screen and (max-width: 702px) {
+  .min-height400px {
+    width: calc(100% - -2%);
+  }
+}
+
+/* 2579 */
+@media only screen and (max-width: 2579px) {
+  .min-height400px {
+    width: calc(100% - 64%);
+  }
+}
+
+@media only screen and (max-width: 1196px) {
+  .min-height400px {
+    width: calc(100% - 56%);
+  }
+}
+
+@media only screen and (max-width: 985px) {
+  .min-height400px {
+    width: calc(100% - 43%);
+  }
+}
+
+/*  */
+@media only screen and (max-width: 697px) {
+  .min-height400px {
+    width: calc(100% - 38%);
+  }
+}
+
+
+/* width: calc(100% - 38%); */
+@media only screen and (max-width: 524px) {
+    .min-height400px {
+      width: calc(100% - 17%);
+    }
+  }
